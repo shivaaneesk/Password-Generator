@@ -1,0 +1,79 @@
+body{
+    background-color: #b0c4b1;
+}
+
+h2{
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+p{
+    color: #FFFFFF;
+    padding-top : 30px;
+    padding-bottom : 30px;
+}
+
+.Green{
+    color: #10B981;
+}
+
+.container{
+    margin : 400px 400px;
+    background-color: #1F2937;
+    padding : 60px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.karla800 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 10px;
+}
+
+.inter400 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.line{
+    height: 3px;
+    width: 100%;
+    background-color: #273549;
+}
+
+.pass{
+    background-color: #10B981;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.pass:hover{
+    background-color: #0a825a;
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: white;
+}
+
+.btn{
+    width: 230px;
+    height: 40px;
+    background-color: #273549;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+}
