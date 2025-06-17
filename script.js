@@ -21,3 +21,17 @@ function GenPass(){
     let passEl2 = document.getElementById("btn2");
     passEl2.innerText = pass2;
 }
+
+function copyToClipboard(elementId) {
+    const text = document.getElementById(elementId).innerText;
+    if (text) {
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                alert("Password copied to clipboard!");
+            })
+            .catch(err => {
+                console.error("Failed to copy: ", err);
+            });
+    }
+}
+
